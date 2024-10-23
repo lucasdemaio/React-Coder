@@ -1,0 +1,102 @@
+/* Estilos generales del Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Estilo de la marca (ElectroHogar) */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para el título de la marca */
+.title-brand {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3557; /* Azul oscuro para elegancia */
+  text-transform: uppercase; /* Mayúsculas para mayor impacto */
+}
+
+/* Icono de la marca (logo) */
+.icon-brand {
+  width: 50px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.icon-brand:hover {
+  transform: scale(1.1); /* Efecto de zoom suave al pasar el cursor */
+}
+
+/* Lista de categorías */
+.listadocateg {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.listadocateg li {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.listadocateg li:hover {
+  background-color: #acbcec;
+  color: #1d3557;
+  cursor: pointer;
+}
+
+/* Estilo de los Links dentro de la lista */
+.listadocateg li a {
+  text-decoration: none; /* Quitar subrayado a los Links */
+  color: #457b9d; /* Azul claro */
+  transition: color 0.3s ease;
+}
+
+.listadocateg li a:hover {
+  color: #1d3557; /* Color más oscuro al pasar el cursor */
+}
+
+/* Estilos del CartWidget */
+.cartwidget-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f1f5f9;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartwidget-container:hover {
+  background-color: #e9ecef;
+}
+
+.cartwidget-container img {
+  width: 30px;
+  height: auto;
+}
+
+.cartwidget-container p {
+  margin: 0;
+  font-size: 18px;
+  color: #1d3557;
+  font-weight: bold;
+}

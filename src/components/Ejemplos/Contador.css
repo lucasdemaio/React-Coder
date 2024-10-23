@@ -1,0 +1,35 @@
+/* Contenedor principal del contador */
+.contador-container {
+    display: flex;
+    align-items: center; /* Alinear verticalmente el contador y el botón */
+    gap: 20px; /* Separación entre el contador y el botón */
+    font-size: 18px;
+    margin: 20px;
+}
+  
+/* Estilo del botón */
+.contador-button {
+    background-color: #7b91d7; /* Color verde atractivo */
+    color: white; /* Texto blanco para buen contraste */
+    border: none; /* Quitar borde por defecto */
+    border-radius: 50%; /* Redondear el botón */
+    width: 50px; /* Tamaño adecuado para el botón */
+    height: 50px; /* Tamaño adecuado para el botón */
+    font-size: 24px; /* Tamaño de la fuente grande para el "+" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave para el hover */
+}
+  
+.contador-button:hover {
+    background-color: #1c56de; /* Cambiar color al pasar el cursor */
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+}
+  
+.contador-button:active {
+    transform: scale(0.95); /* Reducir el tamaño al hacer clic */
+}
+  
