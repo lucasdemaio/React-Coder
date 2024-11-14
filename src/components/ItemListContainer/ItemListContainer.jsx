@@ -3,7 +3,7 @@ import ItemList from "./ItemList.jsx"
 import { collection, getDocs, query, where } from "firebase/firestore"
 import db from "../../db/db.js"
 import {useParams} from "react-router-dom"
-import "./itemlistcontainer.css"
+import './itemListaContainer.css'
 import Loading from "../Loading/Loading.jsx"
 
 
