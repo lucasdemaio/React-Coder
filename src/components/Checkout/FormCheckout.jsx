@@ -11,6 +11,9 @@ const FormCheckout = ({ dataForm, handleChangeInput, handleSubmitForm }) => {
   
         <label>Email</label>
         <input type="email" name="email" value={dataForm.email} onChange={handleChangeInput} />
+
+        <label>Confirmar Email</label>
+        <input type="email" name="confirmaremail" value={dataForm.confirmaremail} onChange={handleChangeInput} />
   
         <button type="submit" className="submit-button">Enviar mi orden</button>
       </form>

@@ -13,7 +13,8 @@ const Checkout = () => {
   const [dataForm, setDataForm] = useState({
     fullname: "",
     phone: "",
-    email: ""
+    email: "",
+    confirmaremail: ""
   })
   const [idOrder, setIdOrder] = useState(null)
   const { cart, totalPrice, deleteCart } = useContext(CartContext)
