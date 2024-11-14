@@ -1,4 +1,3 @@
-import cartwidgeticon from "../../assets/cartwidget.png"
 import "./navbar.css"
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext";

@@ -4,7 +4,7 @@ import { collection, getDocs, query, where } from "firebase/firestore"
 import db from "../../db/db.js"
 import {useParams} from "react-router-dom"
 import "./itemlistcontainer.css"
-import Loading from "../Loading/loading.jsx"
+import Loading from "../Loading/Loading.jsx"
 
 
 const ItemListContainer = ({saludo}) => {
