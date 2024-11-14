@@ -1,0 +1,54 @@
+.item-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.controls-count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.controls-count button {
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls-count button:hover {
+    background-color: #1d3557;
+}
+
+.controls-count p {
+    font-size: 20px;
+    color: #1d3557;
+    font-weight: bold;
+    margin: 0;
+}
+
+.button-add-count {
+    background-color: #457b9d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.button-add-count:hover {
+    background-color: #1d3557;
+}

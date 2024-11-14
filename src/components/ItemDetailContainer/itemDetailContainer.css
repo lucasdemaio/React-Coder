@@ -1,9 +1,9 @@
-.item-detail-container {
+.item-detail-container { 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    background-color: #f4f4f9; /* Fondo claro */
+    background-color: #f4f4f9;
     min-height: 80vh;
 }
 
@@ -18,16 +18,37 @@
     width: 400px;
 }
 
-.item-detail img {
-    width: 100%;
+.main-image img {
+    width: 300px;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
     transition: transform 0.3s ease;
+    margin-bottom: 15px;
 }
 
-.item-detail img:hover {
+.main-image img:hover {
+    transform: scale(1.05);
+}
+
+.secondary-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.secondary-image {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.7;
+}
+
+.secondary-image:hover {
     transform: scale(1.1);
+    opacity: 1;
 }
 
 .item-detail h2 {
@@ -47,22 +68,47 @@
 
 .item-detail .item-detail-price {
     font-size: 24px;
-    color: #e63946;
+    color: #000000;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.item-detail .add-to-cart {
-    background-color: #457b9d;
+.purchase-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.finish-purchase {
+    background-color: #e63946;
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease;
     text-align: center;
 }
 
-.item-detail .add-to-cart:hover {
+.finish-purchase:hover {
+    background-color: #a82834;
+}
+
+.continue-shopping {
+    background-color: #457b9d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.continue-shopping:hover {
     background-color: #1d3557;
 }
