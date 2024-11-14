@@ -3,6 +3,7 @@ import { useContext } from "react"
 import { BsFillTrash3Fill } from "react-icons/bs"
 import { Link } from "react-router-dom"
 import "./cart.css"
+import CartWidget from "../NavBar/CartWidget"
 
 
 
@@ -58,6 +59,5 @@ const Cart = () => {
         </div>
     )      
 }
-
 
 export default Cart

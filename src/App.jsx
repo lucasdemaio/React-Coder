@@ -6,7 +6,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { CartProvider } from './context/CartContext'
-import Cart from './components/Cart/cart'
+import Cart from './components/Cart/Cart'
 import Checkout from './components/Checkout/Checkout';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
